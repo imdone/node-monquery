@@ -1,6 +1,7 @@
 
 var query = require('..');
 var assert = require('assert');
+var should = require('should')
 
 
 describe('fields', function(){
