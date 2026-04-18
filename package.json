@@ -10,12 +10,8 @@
     "query",
     "language"
   ],
-  "dependencies": {
-    "escape-regexp": "0.0.1"
-  },
-  "devDependencies": {
-    "mocha": "*",
-    "should": "*"
+  "scripts": {
+    "test": "node --test"
   },
   "license": "MIT"
 }
