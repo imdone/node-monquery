@@ -1,8 +1,5 @@
 
 test:
-	@./node_modules/.bin/mocha \
-		--require should \
-		--reporter spec \
-		--bail
+	@npm test
 
 .PHONY: test
